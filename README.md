@@ -18,8 +18,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ### Links
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jslcoding/profile_card_component](https://github.com/jslcoding/profile_card_component)
+- Live Site URL: [https://jslcoding.github.io/profile_card_component/](https://jslcoding.github.io/profile_card_component/)
 
 ### Built with
 - Semantic HTML5 markup
