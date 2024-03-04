@@ -18,27 +18,41 @@ body{
 }
 body::before{
     content: "";
-    background-image: url("../images/bg-pattern-top.svg");
-    background-position: top left;
+    background: url("../images/bg-pattern-top.svg");
     background-repeat: no-repeat;
-    position: absolute;
-    height: 60rem;
+    position: fixed;
+    bottom:40%;
+    right: 40%;
     width: 62rem;
-    right: 56rem;
-    bottom: 12rem;
+    height: 62rem;
     z-index: -1;
+}
+@media only screen and (min-width:960px) {
+    body::before{
+        top:-20%;
+        left: -15%;
+        width: 62rem;
+        height: 62rem;
+    }
 }
 body::after{
     content: "";
-    background-image: url("../images/bg-pattern-bottom.svg");
-    background-position: left top;
+    background: url("../images/bg-pattern-bottom.svg");
     background-repeat: no-repeat;
-    position: absolute;
-    height: 38.7rem;
-    width: 44rem;
-    left: 54rem;
-    top: 12rem;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 20rem;
+    height: 40rem;
     z-index: -1;
+}
+@media only screen and (min-width:960px) {
+    body::after{
+        right: 0;
+        bottom: 0;
+        width: 40rem;
+        height: 40rem;
+    }
 }
 h1{
     visibility: hidden;
@@ -53,7 +67,7 @@ h1{
     -moz-box-shadow: 2px 6px 24px 0px rgba(0,0,0,0.24);
     box-shadow: 2px 6px 24px 0px rgba(0,0,0,0.24);
 }
-@media only screen and (min-width:1080px) {
+@media only screen and (min-width:960px) {
     .container{
         max-width: 25%;
     }
